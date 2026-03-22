@@ -82,6 +82,8 @@ Làm việc với điều khiển ListView cho bài tính tổng 2 số A và B.
 
 [Chi tiết bài tập](ListView1)
 
-<!-- hình ảnh BaiTH7 -->
+![alt text](https://github.com/user-attachments/assets/d358c7f5-fd95-4f43-ad6f-0de9020c9951)
 
 ---
+<img width="1919" height="1022" alt="Screenshot 2026-03-23 042440" src="https://github.com/user-attachments/assets/da6e319d-9587-4f1a-b374-647c20f9b0e6" />
+
