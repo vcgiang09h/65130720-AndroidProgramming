@@ -16,7 +16,7 @@
 
 [Chi tiết bài tập](HelloWord)
 
-![alt text](image.png)
+![alt text](https://github.com/vcgiang09h/65130720-AndroidProgramming/blob/main/IMGDescription/HelloWorld.png)
 
 ---
 
