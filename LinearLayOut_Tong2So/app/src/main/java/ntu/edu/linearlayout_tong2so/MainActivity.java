@@ -3,104 +3,101 @@ package ntu.edu.linearlayout_tong2so;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
+
+    // 1. Khai báo các biến toàn cục
+    EditText edtSo1, edtSo2, edtKetQua;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
-        });
         TimDieuKhien();
     }
 
     void TimDieuKhien() {
+        edtSo1 = findViewById(R.id.edtSo1);
+        edtSo2 = findViewById(R.id.edtSo2);
+        edtKetQua = findViewById(R.id.edtKetQua);
     }
 
     // ================= XỬ LÝ CỘNG =================
-    public void XuLyCong(View v) {
-        // B1. Lấy dữ liệu 2 số
-        // B1.1 Tìm EditText số 1 và số 2
-        EditText editTextSo1 = (EditText) findViewById(R.id.edtSo1);
-        EditText editTextSo2 = (EditText) findViewById(R.id.edtSo2);
+    public void XuLyCong(View view) {
+        String sa = edtSo1.getText().toString().trim();
+        String sb = edtSo2.getText().toString().trim();
 
-        // B1.2 Lấy dữ liệu từ 2 điều khiển đó
-        String soThu1 = editTextSo1.getText().toString();
-        String soThu2 = editTextSo2.getText().toString();
+        // Kiểm tra người dùng có nhập đủ 2 số chưa
+        if (sa.isEmpty() || sb.isEmpty()) {
+            Toast.makeText(this, "Vui lòng nhập đủ 2 số!", Toast.LENGTH_SHORT).show();
+            return; // Dừng hàm lại, không chạy code bên dưới nữa
+        }
 
-        // B1.3 Chuyển dữ liệu từ chuỗi sang số
-        float soA = Float.parseFloat(soThu1);
-        float soB = Float.parseFloat(soThu2);
+        // Tái sử dụng luôn chuỗi sa, sb ở trên để chuyển thành số
+        double a = Double.parseDouble(sa);
+        double b = Double.parseDouble(sb);
 
-        // B2. Tính toán
-        float Tong = soA + soB;
-
-        // B3. Hiện kết quả
-        // B3.1 Tìm EditText kết quả
-        EditText editTextKQ = (EditText) findViewById(R.id.edtKetQua);
-        // B3.2 Chuẩn bị dữ liệu xuất, biến thành dạng chuỗi
-        String chuoiKQ = String.valueOf(Tong);
-        // B3.3 Gắn kết quả lên điều khiển
-        editTextKQ.setText(chuoiKQ);
+        double tong = a + b;
+        edtKetQua.setText(String.valueOf(tong));
     }
 
     // ================= XỬ LÝ TRỪ =================
-    public void XuLyTru(View v) {
-        EditText editTextSo1 = (EditText) findViewById(R.id.edtSo1);
-        EditText editTextSo2 = (EditText) findViewById(R.id.edtSo2);
+    public void XuLyTru(View view) {
+        String sa = edtSo1.getText().toString().trim();
+        String sb = edtSo2.getText().toString().trim();
 
-        float soA = Float.parseFloat(editTextSo1.getText().toString());
-        float soB = Float.parseFloat(editTextSo2.getText().toString());
+        if (sa.isEmpty() || sb.isEmpty()) {
+            Toast.makeText(this, "Vui lòng nhập đủ 2 số!", Toast.LENGTH_SHORT).show();
+            return;
+        }
 
-        float Hieu = soA - soB;
+        double a = Double.parseDouble(sa);
+        double b = Double.parseDouble(sb);
 
-        EditText editTextKQ = (EditText) findViewById(R.id.edtKetQua);
-        editTextKQ.setText(String.valueOf(Hieu));
+        double hieu = a - b;
+        edtKetQua.setText(String.valueOf(hieu));
     }
 
     // ================= XỬ LÝ NHÂN =================
-    public void XuLyNhan(View v) {
-        EditText editTextSo1 = (EditText) findViewById(R.id.edtSo1);
-        EditText editTextSo2 = (EditText) findViewById(R.id.edtSo2);
+    public void XuLyNhan(View view) {
+        String sa = edtSo1.getText().toString().trim();
+        String sb = edtSo2.getText().toString().trim();
 
-        float soA = Float.parseFloat(editTextSo1.getText().toString());
-        float soB = Float.parseFloat(editTextSo2.getText().toString());
+        if (sa.isEmpty() || sb.isEmpty()) {
+            Toast.makeText(this, "Vui lòng nhập đủ 2 số!", Toast.LENGTH_SHORT).show();
+            return;
+        }
 
-        float Tich = soA * soB;
+        double a = Double.parseDouble(sa);
+        double b = Double.parseDouble(sb);
 
-        EditText editTextKQ = (EditText) findViewById(R.id.edtKetQua);
-        editTextKQ.setText(String.valueOf(Tich));
+        double tich = a * b;
+        edtKetQua.setText(String.valueOf(tich));
     }
 
     // ================= XỬ LÝ CHIA =================
-    public void XuLyChia(View v) {
-        // B1. Lấy dữ liệu 2 số
-        EditText editTextSo1 = (EditText) findViewById(R.id.edtSo1);
-        EditText editTextSo2 = (EditText) findViewById(R.id.edtSo2);
+    public void XuLyChia(View view) {
+        String sa = edtSo1.getText().toString().trim();
+        String sb = edtSo2.getText().toString().trim();
 
-        String soThu1 = editTextSo1.getText().toString();
-        String soThu2 = editTextSo2.getText().toString();
+        if (sa.isEmpty() || sb.isEmpty()) {
+            Toast.makeText(this, "Vui lòng nhập đủ 2 số!", Toast.LENGTH_SHORT).show();
+            return;
+        }
 
-        float soA = Float.parseFloat(soThu1);
-        float soB = Float.parseFloat(soThu2);
+        double a = Double.parseDouble(sa);
+        double b = Double.parseDouble(sb);
 
-        // B2. Tính toán
-        float Thuong = soA / soB;
+        if (b == 0) {
+            Toast.makeText(this, "Không thể chia cho 0!", Toast.LENGTH_SHORT).show();
+            edtKetQua.setText("Lỗi!");
+            return;
+        }
 
-        // B3. Hiện kết quả
-        EditText editTextKQ = (EditText) findViewById(R.id.edtKetQua);
-        String chuoiKQ = String.valueOf(Thuong);
-        editTextKQ.setText(chuoiKQ);
+        double thuong = a / b;
+        edtKetQua.setText(String.valueOf(thuong));
     }
 }
