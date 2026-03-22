@@ -25,6 +25,7 @@
 
 [Chi tiết bài tập](CalculateTotal)
 
+![alt text](https://github.com/user-attachments/assets/d358c7f5-fd95-4f43-ad6f-0de9020c9951)
 ---
 
 ### 🔗 [BaiTH2_2: Hoàn thiện Ứng dụng tính tổng 2 số](BaiTh2_2)
