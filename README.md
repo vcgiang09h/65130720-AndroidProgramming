@@ -25,11 +25,14 @@
 
 [Chi tiết bài tập](CalculateTotal)
 
+![alt text](https://github.com/user-attachments/assets/d358c7f5-fd95-4f43-ad6f-0de9020c9951)
 ---
 
 ### 🔗 [BaiTH2_2: Hoàn thiện Ứng dụng tính tổng 2 số](BaiTh2_2)
 
 Bài thực hành, tương tác với các điều khiển cơ bản, sử dụng thuộc tính **onClick** của Button để code mã đáp ứng sự kiện
+
+![alt text](https://github.com/user-attachments/assets/93751123-0bb4-457f-a8e6-29faa09500aa)
 
 ---
 
