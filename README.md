@@ -16,9 +16,10 @@
 
 [Chi tiết bài tập](HelloWord)
 
-![alt text](https://github.com/vcgiang09h/65130720-AndroidProgramming/blob/main/IMGDescription/HelloWorld.png)
+![alt text](https://github.com/user-attachments/assets/d8bfefbd-b9de-48e9-a6de-0185e7e46317)
 
 ---
+
 
 ## 🔗 BaiTH2_1: Thiết kế giao diện cho Ứng dụng tính tổng 2 số
 
