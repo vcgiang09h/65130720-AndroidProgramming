@@ -16,6 +16,8 @@
 
 [Chi tiết bài tập](HelloWord)
 
+![alt text](image.png)
+
 ---
 
 ## 🔗 BaiTH2_1: Thiết kế giao diện cho Ứng dụng tính tổng 2 số
@@ -34,11 +36,7 @@ Bài thực hành, tương tác với các điều khiển cơ bản, sử dụn
 
 ---
 
-### 🔗 [BaiTH4: LinearLayOut_Tong2So (Phần 1)](LinearLayOut_Tong2So)
-
----
-
-### 🔗 [BaiTH4: LinearLayOut_Tong2So (Phần 2)](LinearLayOut_Tong2So)
+### 🔗 [BaiTH4: LinearLayOut_Tong2So](LinearLayOut_Tong2So)
 
 ---
 
