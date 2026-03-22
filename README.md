@@ -40,6 +40,8 @@ Bài thực hành, tương tác với các điều khiển cơ bản, sử dụn
 
 ## 🔗 BaiTH3_LinearLayOut01
 
+Bố cục Linear Layout .
+
 [Chi tiết bài tập](BaiTh3_LinearLayOut01)
 
 <!-- hình ảnh BaiTH3 -->
@@ -47,6 +49,8 @@ Bài thực hành, tương tác với các điều khiển cơ bản, sử dụn
 ---
 
 ## 🔗 BaiTH4: LinearLayOut_Tong2So
+
+Thiết kế màn hình với LinearLayout, Nghe và Xử lý sự kiện OnClick XML cho bài tính tổng 2 số A và B.
 
 [Chi tiết bài tập](LinearLayOut_Tong2So)
 
@@ -56,7 +60,7 @@ Bài thực hành, tương tác với các điều khiển cơ bản, sử dụn
 
 ## 🔗 BaiTH5_XuLySuKien1
 
-Sinh viên tạo lại dự án mới (theo bài TH4), để code xử lý sự kiện theo Video
+Code xử lý sư kiện sử dụng Bộ lắng nghe sự kiện Ẩn danh
 
 [Chi tiết bài tập](XuLySuKien1)
 
@@ -65,6 +69,8 @@ Sinh viên tạo lại dự án mới (theo bài TH4), để code xử lý sự 
 ---
 
 ## 🔗 BaiTH6_XuLySuKien_TinhTong
+
+Làm việc với điều khiển ListView cho bài tính tổng 2 số A và B.
 
 [Chi tiết bài tập](XuLySuKien_TinhTong)
 
