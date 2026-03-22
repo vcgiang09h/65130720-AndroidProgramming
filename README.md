@@ -20,7 +20,7 @@
 
 ---
 
-
+ 
 ## 🔗 BaiTH2_1: Thiết kế giao diện cho Ứng dụng tính tổng 2 số
 
 [Chi tiết bài tập](CalculateTotal)
@@ -28,30 +28,54 @@
 ![alt text](https://github.com/user-attachments/assets/d358c7f5-fd95-4f43-ad6f-0de9020c9951)
 ---
 
-### 🔗 [BaiTH2_2: Hoàn thiện Ứng dụng tính tổng 2 số](BaiTh2_2)
+## 🔗 BaiTH2_2: Hoàn thiện Ứng dụng tính tổng 2 số
 
 Bài thực hành, tương tác với các điều khiển cơ bản, sử dụng thuộc tính **onClick** của Button để code mã đáp ứng sự kiện
+
+[Chi tiết bài tập](BaiTh2_2)
 
 ![alt text](https://github.com/user-attachments/assets/93751123-0bb4-457f-a8e6-29faa09500aa)
 
 ---
 
-### 🔗 [BaiTH3_LinearLayOut01](BaiTh3_LinearLayOut01)
+## 🔗 BaiTH3_LinearLayOut01
+
+[Chi tiết bài tập](BaiTh3_LinearLayOut01)
+
+<!-- hình ảnh BaiTH3 -->
 
 ---
 
-### 🔗 [BaiTH4: LinearLayOut_Tong2So](LinearLayOut_Tong2So)
+## 🔗 BaiTH4: LinearLayOut_Tong2So
+
+[Chi tiết bài tập](LinearLayOut_Tong2So)
+
+<!-- hình ảnh BaiTH4 -->
 
 ---
 
-### 🔗 [BaiTH5_XuLySuKien1](XuLySuKien1)
+## 🔗 BaiTH5_XuLySuKien1
+
+Sinh viên tạo lại dự án mới (theo bài TH4), để code xử lý sự kiện theo Video
+
+[Chi tiết bài tập](XuLySuKien1)
+
+<!-- hình ảnh BaiTH5 -->
 
 ---
 
-### 🔗 [BaiTH6_XuLySuKien_TinhTong](XuLySuKien_TinhTong)
+## 🔗 BaiTH6_XuLySuKien_TinhTong
+
+[Chi tiết bài tập](XuLySuKien_TinhTong)
+
+<!-- hình ảnh BaiTH6 -->
 
 ---
 
-### 🔗 [BaiTH7_ListView1](ListView1)
+## 🔗 BaiTH7_ListView1
+
+[Chi tiết bài tập](ListView1)
+
+<!-- hình ảnh BaiTH7 -->
 
 ---
