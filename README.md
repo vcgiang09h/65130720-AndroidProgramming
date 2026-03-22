@@ -31,6 +31,8 @@
 
 Bài thực hành, tương tác với các điều khiển cơ bản, sử dụng thuộc tính **onClick** của Button để code mã đáp ứng sự kiện
 
+![alt text](https://github.com/user-attachments/assets/93751123-0bb4-457f-a8e6-29faa09500aa)
+
 ---
 
 ### 🔗 [BaiTH3_LinearLayOut01](BaiTh3_LinearLayOut01)
