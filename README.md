@@ -94,7 +94,7 @@ Bài tập minh họa cách triển khai Custom ListView để hiển thị danh
 
 Xây dựng một ứng dụng hiển thị danh sách các đối tượng (gồm hình ảnh và chú thích) bằng công cụ RecyclerView.
 
-[Chi tiết bài tập](TuyChinhLV)
+[Chi tiết bài tập](Recyclerview)
 
 ![alt text](https://github.com/user-attachments/assets/fb71cac2-e5ef-4f40-abde-b1b5066ef02b)
 
