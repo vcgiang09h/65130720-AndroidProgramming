@@ -23,10 +23,29 @@ public class MainActivity extends AppCompatActivity {
         danhSachMonAn = new ArrayList<>();
 
         // Chuẩn bị dữ liệu mô phỏng
-        danhSachMonAn.add(new MonAn("Cơm tấm sườn", 25000, "Mô tả cơm tấm sườn", R.drawable.cts));
-        danhSachMonAn.add(new MonAn("Cơm sườn trứng", 30000, "Mô tả cơm sườn trứng", R.drawable.cst));
-        danhSachMonAn.add(new MonAn("Sườn bì chả", 32000, "Mô tả sườn bì chả", R.drawable.sb));
-        danhSachMonAn.add(new MonAn("Cơm tấm đặc biệt", 35000, "Mô tả cơm tấm đặc biệt", R.drawable.db));
+        danhSachMonAn.add(new MonAn(
+                "Cơm tấm sườn",
+                25000,
+                "Cơm tấm ăn kèm sườn nướng thơm, bì và mỡ hành, chan nước mắm đậm đà.",
+                R.drawable.cts));
+
+        danhSachMonAn.add(new MonAn(
+                "Cơm sườn trứng",
+                30000,
+                "Cơm tấm với sườn nướng và trứng ốp la béo ngậy, ăn kèm dưa chua.",
+                R.drawable.cst));
+
+        danhSachMonAn.add(new MonAn(
+                "Sườn bì chả",
+                32000,
+                "Món cơm gồm sườn nướng, bì heo và chả trứng hấp, hương vị truyền thống.",
+                R.drawable.sb));
+
+        danhSachMonAn.add(new MonAn(
+                "Cơm tấm đặc biệt",
+                35000,
+                "Cơm tấm đầy đủ sườn, bì, chả, trứng và nhiều topping hấp dẫn.",
+                R.drawable.db));
 
         // Thiết lập Adapter
         adapter = new MonAnAdapter(this, danhSachMonAn);
