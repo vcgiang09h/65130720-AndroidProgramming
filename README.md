@@ -58,7 +58,7 @@ Thiết kế màn hình với LinearLayout, Nghe và Xử lý sự kiện OnClic
 
 ## 🔗 BaiTH5_XuLySuKien1
 
-Code xử lý sư kiện sử dụng Bộ lắng nghe sự kiện Ẩn danh
+Code xử lý sư kiện sử dụng Bộ lắng nghe sự kiện Ẩn danh.
 
 [Chi tiết bài tập](XuLySuKien1)
 
@@ -77,6 +77,26 @@ Làm việc với điều khiển ListView cho bài tính tổng 2 số A và B.
 [Chi tiết bài tập](ListView1)
 
 ![alt text](https://github.com/user-attachments/assets/da6e319d-9587-4f1a-b374-647c20f9b0e6)
+
+---
+
+## 🔗 BaiTH8_TuyChinhLV
+
+Bài tập minh họa cách triển khai Custom ListView để hiển thị danh sách đối tượng (MonAn) với bố cục tùy chỉnh.
+
+[Chi tiết bài tập](TuyChinhLV)
+
+![alt text](https://github.com/user-attachments/assets/0d564651-6ced-46bb-a789-9c62cb266267)
+
+---
+
+## 🔗 BaiTH9_Recyclerview
+
+Xây dựng một ứng dụng hiển thị danh sách các đối tượng (gồm hình ảnh và chú thích) bằng công cụ RecyclerView.
+
+[Chi tiết bài tập](Recyclerview)
+
+![alt text](https://github.com/user-attachments/assets/fb71cac2-e5ef-4f40-abde-b1b5066ef02b)
 
 ---
 
