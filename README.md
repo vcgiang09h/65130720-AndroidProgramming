@@ -80,3 +80,11 @@ Làm việc với điều khiển ListView cho bài tính tổng 2 số A và B.
 
 ---
 
+## 🔗 BaiTH8_TuyChinhLV
+
+[Chi tiết bài tập](TuyChinhLV)
+
+![alt text](https://github.com/user-attachments/assets/0d564651-6ced-46bb-a789-9c62cb266267)
+
+---
+
