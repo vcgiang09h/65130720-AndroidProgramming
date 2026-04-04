@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Màu chính của ứng dụng -->
+    <color name="colorPrimary">#FFCCAA</color> <!-- [4] -->
+    <!-- Màu nền cho content và footer -->
+    <color name="bg_content">#55A839</color> <!-- [5] -->
+    <color name="bg_footer">#009DD9</color> <!-- [6] -->
+    <color name="white">#FFFFFF</color>
+</resources>
