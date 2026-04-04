@@ -108,6 +108,15 @@ A Quick Guide to Android Fragments
 ![alt text](https://github.com/user-attachments/assets/f2e6e8a7-11cd-4a2d-a519-8088fb0e8cc5)
 
 ---
+## 🔗 BaiTH12.FragmentDong
+
+How to Add Fragments Dynamically in Android
+
+[Chi tiết bài tập](FragmentDong)
+
+![alt text](https://github.com/user-attachments/assets/b20e61c0-ad96-430e-8424-e5299db80b66)
+
+---
 
 
 
