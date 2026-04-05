@@ -99,6 +99,16 @@ Xây dựng một ứng dụng hiển thị danh sách các đối tượng (g�
 ![alt text](https://github.com/user-attachments/assets/fb71cac2-e5ef-4f40-abde-b1b5066ef02b)
 
 ---
+
+## 🔗 BaiTH10_ViduIntentDonGian
+
+[Chi tiết bài tập](ViduIntentDonGian)
+
+![alt text](https://github.com/user-attachments/assets/83a8203d-886c-4ab5-b3c4-998a8194d63e)
+![alt text](https://github.com/user-attachments/assets/e8c561d5-ca03-48b4-8c96-ad53ed9b13cf)
+
+---
+
 ## 🔗 BaiTH11.FragmentTinh
 
 A Quick Guide to Android Fragments
@@ -108,6 +118,23 @@ A Quick Guide to Android Fragments
 ![alt text](https://github.com/user-attachments/assets/f2e6e8a7-11cd-4a2d-a519-8088fb0e8cc5)
 
 ---
+## 🔗 BaiTH12.FragmentDong
+
+How to Add Fragments Dynamically in Android
+
+[Chi tiết bài tập](FragmentDong)
+
+![alt text](https://github.com/user-attachments/assets/b20e61c0-ad96-430e-8424-e5299db80b66)
+
+---
+## 🔗 BaiTH13.ThayDoiFragment
+
+Sử dụng Fragment Dynamic: Replacing Fragments Dynamically
+
+[Chi tiết bài tập](ThayDoiFragment)
+
+![alt text](https://github.com/user-attachments/assets/0d04f34a-a4fc-4b67-90d5-60a3e5916d9f)
+
 
 
 
