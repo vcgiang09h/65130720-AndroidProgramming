@@ -117,6 +117,14 @@ How to Add Fragments Dynamically in Android
 ![alt text](https://github.com/user-attachments/assets/b20e61c0-ad96-430e-8424-e5299db80b66)
 
 ---
+## 🔗 BaiTH13.ThayDoiFragment
+
+Sử dụng Fragment Dynamic: Replacing Fragments Dynamically
+
+[Chi tiết bài tập](ThayDoiFragment)
+
+![alt text](https://github.com/user-attachments/assets/0d04f34a-a4fc-4b67-90d5-60a3e5916d9f)
+
 
 
 
