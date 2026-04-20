@@ -34,10 +34,10 @@
     <ImageView
         android:id="@+id/imgAvatar"
         android:layout_width="130dp"
-        android:layout_height="130dp"
+        android:layout_height="172dp"
+        android:layout_marginBottom="20dp"
         android:scaleType="centerCrop"
-        android:src="@mipmap/ic_launcher"
-        android:layout_marginBottom="20dp" />
+        android:src="@drawable/aodoan" />
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
