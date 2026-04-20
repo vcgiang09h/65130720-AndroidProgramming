@@ -6,90 +6,75 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="center"
     android:padding="30dp"
     android:background="#F8F9FA"
-    tools:context=".ChucNang1Activity">
+    tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="match_parent"
+        android:id="@+id/tvTieuDe"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CHỨC NĂNG 1"
-        android:textSize="26sp"
+        android:text="MENU CHỨC NĂNG"
+        android:textSize="28sp"
         android:textStyle="bold"
         android:textColor="#2C3E50"
-        android:gravity="center"
-        android:layout_marginBottom="5dp" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TÍNH CHU VI VÀ DIỆN TÍCH"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        android:textColor="#009688"
-        android:gravity="center"
-        android:layout_marginBottom="30dp" />
-
-    <EditText
-        android:id="@+id/edtChieuDai"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:hint="Nhập chiều dài (m)"
-        android:inputType="numberDecimal"
-        android:textSize="18sp"
-        android:layout_marginBottom="15dp" />
-
-    <EditText
-        android:id="@+id/edtChieuRong"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:hint="Nhập chiều rộng (m)"
-        android:inputType="numberDecimal"
-        android:textSize="18sp"
-        android:layout_marginBottom="30dp" />
-
-    <Button
-        android:id="@+id/btnTinhToan"
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:text="TÍNH TOÁN"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        android:textColor="#FFFFFF"
-        android:backgroundTint="#009688"
-        app:cornerRadius="10dp"
-        android:layout_marginBottom="30dp" />
-
-    <TextView
-        android:id="@+id/tvChuVi"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Chu vi: "
-        android:textSize="20sp"
-        android:textColor="#2C3E50"
-        android:textStyle="bold"
-        android:layout_marginBottom="15dp" />
-
-    <TextView
-        android:id="@+id/tvDienTich"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Diện tích: "
-        android:textSize="20sp"
-        android:textColor="#2C3E50"
-        android:textStyle="bold"
+        android:letterSpacing="0.05"
         android:layout_marginBottom="40dp" />
 
     <Button
-        android:id="@+id/btnQuayLai"
+        android:id="@+id/btnChucNang1"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:text="QUAY LẠI TRANG CHỦ"
+        android:layout_height="70dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#009688"
+        android:elevation="5dp"
+        android:onClick="moChucNang1"
+        android:text="1. CHỨC NĂNG 1"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:cornerRadius="15dp" />
+
+    <Button
+        android:id="@+id/btnChucNang2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="20dp"
+        android:text="2. CHỨC NĂNG 2"
         android:textSize="16sp"
         android:textStyle="bold"
         android:textColor="#FFFFFF"
-        android:backgroundTint="#7F8C8D"
-        app:cornerRadius="10dp"
-        android:onClick="quayLaiTrangChu" />
+        android:backgroundTint="#3F51B5"
+        app:cornerRadius="15dp"
+        android:elevation="5dp"
+        android:onClick="moChucNang2"/>
+
+    <Button
+        android:id="@+id/btnChucNang3"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="20dp"
+        android:text="3. CHỨC NĂNG 3"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FF9800"
+        app:cornerRadius="15dp"
+        android:elevation="5dp"
+        android:onClick="moChucNang3"/>
+
+    <Button
+        android:id="@+id/btnChucNang4"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="4. CHỨC NĂNG 4"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#9C27B0"
+        app:cornerRadius="15dp"
+        android:elevation="5dp"
+        android:onClick="moChucNang4"/>
 
 </LinearLayout>

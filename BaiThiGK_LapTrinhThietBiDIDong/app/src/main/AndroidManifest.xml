@@ -20,6 +20,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ChucNang1Activity" />
+        <activity android:name=".ChucNang2Activity" />
+        <activity android:name=".ChucNang3Activity" />
+        <activity android:name=".ChucNang4Activity" />
     </application>
 
 </manifest>
