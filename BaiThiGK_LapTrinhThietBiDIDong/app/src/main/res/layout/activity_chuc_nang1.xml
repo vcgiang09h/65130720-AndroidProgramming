@@ -13,18 +13,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="CHỨC NĂNG 1"
-        android:textSize="26sp"
-        android:textStyle="bold"
-        android:textColor="#2C3E50"
-        android:gravity="center"
-        android:layout_marginBottom="5dp" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TÍNH CHU VI VÀ DIỆN TÍCH"
-        android:textSize="18sp"
+        android:text="TÍNH CHU VI &amp; DIỆN TÍCH"
+        android:textSize="22sp"
         android:textStyle="bold"
         android:textColor="#009688"
         android:gravity="center"
