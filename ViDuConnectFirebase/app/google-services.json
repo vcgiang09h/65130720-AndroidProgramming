@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "731945826104",
+    "project_id": "firebase-giang-65130720",
+    "storage_bucket": "firebase-giang-65130720.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:731945826104:android:giang65130720abcd1234",
+        "android_client_info": {
+          "package_name": "giangvc.ntu.viduconnectfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyGIANG65130720FAKEKEYxyz"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
