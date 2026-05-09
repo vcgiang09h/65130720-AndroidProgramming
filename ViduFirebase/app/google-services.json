@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "498002558366",
+    "project_id": "android-460bb",
+    "storage_bucket": "android-460bb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498002558366:android:aec90c6110272784092a8f",
+        "android_client_info": {
+          "package_name": "giangvc.ntu.vidufirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUffiKA33tm7hg9gP1YemdAaHxamqlZ2s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
