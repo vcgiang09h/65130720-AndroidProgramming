@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "999085121844",
+    "project_id": "bonusfirebaseauth",
+    "storage_bucket": "bonusfirebaseauth.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999085121844:android:7f5a5b05731833510ec561",
+        "android_client_info": {
+          "package_name": "giangvc.ntu.bonusfirebaseauth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBi1ln5O2634uNW-AaBBzb6MMGY0x1kRdU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
