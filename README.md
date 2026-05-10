@@ -134,6 +134,30 @@ Sử dụng Fragment Dynamic: Replacing Fragments Dynamically
 [Chi tiết bài tập](ThayDoiFragment)
 
 ![alt text](https://github.com/user-attachments/assets/0d04f34a-a4fc-4b67-90d5-60a3e5916d9f)
+---
+## 🔗 BonusFirebaseAuth
+
+Đăng ký & Đăng nhập với Firebase Authentication
+
+[Chi tiết bài tập](BonusFirebaseAuth)
+
+![alt text](https://github.com/user-attachments/assets/0f339e90-1dd8-4819-888f-e78ae07e5d4d)
+![alt text](https://github.com/user-attachments/assets/f962b0d0-4d77-4ec5-ba20-93a69074efff)
+
+---
+## 🔗 
+
+Thao tác đọc ghi dữ liệu với Firebase Firestore
+
+[Chi tiết bài tập](BonusFileStoreApp)
+
+![alt text](https://github.com/user-attachments/assets/802e0832-01c0-45dd-8cf6-ed3510c1ea44)
+![alt text](https://github.com/user-attachments/assets/7ade04a5-e61c-46fb-950a-f9cde99daa46)
+
+
+
+
+
 
 
 
