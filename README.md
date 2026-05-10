@@ -134,6 +134,16 @@ Sử dụng Fragment Dynamic: Replacing Fragments Dynamically
 [Chi tiết bài tập](ThayDoiFragment)
 
 ![alt text](https://github.com/user-attachments/assets/0d04f34a-a4fc-4b67-90d5-60a3e5916d9f)
+---
+## 🔗 BonusFirebaseAuth
+
+Sử dụng Fragment Dynamic: Replacing Fragments Dynamically
+
+[Chi tiết bài tập](BonusFirebaseAuth)
+
+![alt text](https://github.com/user-attachments/assets/7591bc46-fa6a-4eb2-bb38-f5d520f70fc0)
+![alt text](https://github.com/user-attachments/assets/bb1cbe88-b3eb-4c66-beb6-72f4d6d24113)
+
 
 
 
