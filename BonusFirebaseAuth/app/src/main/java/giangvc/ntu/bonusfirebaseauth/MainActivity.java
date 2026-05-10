@@ -1,5 +1,6 @@
 package giangvc.ntu.bonusfirebaseauth;
 
+import android.content.Intent;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,6 +9,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -20,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
     private FirebaseAuth mAuth;
     private EditText edtEmail, edtPassword;
     private Button btnDangKy;
+    private TextView txtChuyenSangDangNhap;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +37,10 @@ public class MainActivity extends AppCompatActivity {
         edtPassword = findViewById(R.id.edtPassword);
         btnDangKy = findViewById(R.id.btnDangky);
 
+        // 2. Ánh xạ TextView từ giao diện XML
+        txtChuyenSangDangNhap = findViewById(R.id.txtChuyenSangDangNhap);
+
+        // Sự kiện ĐĂNG KÝ
         btnDangKy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -53,6 +60,15 @@ public class MainActivity extends AppCompatActivity {
                                 }
                             }
                         });
+            }
+        });
+
+        txtChuyenSangDangNhap.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Chuyển từ MainActivity sang LoginActivity
+                Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+                startActivity(intent);
             }
         });
     }
