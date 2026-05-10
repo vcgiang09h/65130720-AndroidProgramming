@@ -2,7 +2,8 @@
   "project_info": {
     "project_number": "885853077522",
     "project_id": "vieccanlam-465a3",
-    "storage_bucket": "vieccanlam-465a3.firebasestorage.app"
+    "storage_bucket": "vieccanlam-465a3.firebasestorage.app",
+    "firebase_url": "https://vieccanlam-465a3-default-rtdb.firebaseio.com"
   },
   "client": [
     {
