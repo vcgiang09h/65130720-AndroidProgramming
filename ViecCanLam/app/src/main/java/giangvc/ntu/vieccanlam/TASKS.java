@@ -7,9 +7,9 @@ public class TASKS implements Serializable {
     String name;
     String date;
     String message;
-    String priority;
+    long priority;   // Lưu là số nguyên trên Firebase
 
-    public TASKS(String name, String date, String message, String priority) {
+    public TASKS(String name, String date, String message, long priority) {
         this.name = name;
         this.date = date;
         this.message = message;
@@ -42,23 +42,25 @@ public class TASKS implements Serializable {
         this.message = message;
     }
 
-    public String getPriority() {
+    public long getPriority() {
         return priority;
     }
 
-    public void setPriority(String priority) {
+    public void setPriority(long priority) {
         this.priority = priority;
     }
 
-    public HashMap<String, String> toFirebaseOject(){
-        HashMap<String, String> taskObject = new HashMap<String, String>();
+    public HashMap<String, Object> toFirebaseOject(){
+
+        HashMap<String, Object> taskObject =
+                new HashMap<String, Object>();
+
         taskObject.put("name", name);
-        taskObject.put("date", name);
-        taskObject.put("message", name);
-        taskObject.put("priority", name);
+        taskObject.put("date", date);
+        taskObject.put("message", message);
+        taskObject.put("priority", priority);  // lưu là số nguyên
 
         return taskObject;
-
     }
 }
 
