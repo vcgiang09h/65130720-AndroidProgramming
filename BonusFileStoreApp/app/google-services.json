@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "341110389948",
+    "project_id": "bonupp-b6009",
+    "storage_bucket": "bonupp-b6009.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341110389948:android:fe7c1ed46d5a326eb024b9",
+        "android_client_info": {
+          "package_name": "giangvc.ntu.bonusfilestoreapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwq1U08Q_zgo4jRidYuIw9k6p0Dfsixgc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
